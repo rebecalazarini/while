@@ -1,0 +1,11 @@
+/mostrar na tela "Hello World!" 11 vezes 
+#include<stdio.h>
+int main() {
+    int frase = 0;
+
+while (frase < 11) {
+    printf("Hello World! \n");
+    frase += 1;
+}
+    return 0;
+}
