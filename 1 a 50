@@ -1,0 +1,11 @@
+/escrever os numero de 1 a 50
+#include<stdio.h>
+int main() {
+    int numero = 1;
+
+while (numero < 51) {
+    printf( "Numero:%d\n", numero);
+    numero += 1;
+}
+    return 0;
+}
